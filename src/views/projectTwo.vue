@@ -1,18 +1,19 @@
 <template>
   <div class="two main-content">
     <div class="left-content slideUp">
-      <h1>Project Two</h1>
 
-      <router-link to='/portfolio/one'>
-        <img src="../assets/arrow-up.svg" class="arrow arrow-up" />
-      </router-link>
+        <router-link to='/portfolio/one'>
+            <img src="../assets/arrow-up.svg" class="arrow arrow-up" />
+        </router-link>
 
-      <p class="subtxt">XXXXXX</p>
-      <p class="subtxt">XXXXXX</p>
+        <h1>Project Two</h1>
 
-      <router-link to='/portfolio/three'>
-        <img src="../assets/arrow-down.svg" class="arrow arrow-down" />
-      </router-link>
+        <p class="subtxt">XXXXXX</p>
+        <p class="subtxt">XXXXXX</p>
+
+        <router-link to='/portfolio/three'>
+            <img src="../assets/arrow-down.svg" class="arrow arrow-down" />
+        </router-link>
     </div>
     <div class="right-content img2">
     </div>
@@ -45,4 +46,5 @@ export default {
             widows: 50%;
         }
     }
+
 </style>
