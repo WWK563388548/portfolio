@@ -11,7 +11,6 @@
       </router-link>
     </div>
     <div class="right-content img2">
-      <img src="" />
     </div>
   </div>
 </template>
@@ -34,9 +33,12 @@ export default {
     }
 
     .img2 {
-        background: $page_color;
+        background: url("../assets/home.jpg");
+        background-size: cover;
+        background-position: 50%;
+
         img {
-            width: 50%;
+            widows: 50%;
         }
     }
 </style>

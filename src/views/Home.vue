@@ -27,6 +27,8 @@ export default {
 <style scoped>
   .img1 {
     background: url('../assets/home.jpg');
+    background-size: cover;
+    background-position: 50%;
   }
 </style>
 
