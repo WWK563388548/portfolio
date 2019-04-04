@@ -121,3 +121,30 @@ button {
     font-family: 'Montserrat';
     cursor: pointer;
 }
+
+.arrow {
+    width: 43px;
+    position: absolute;
+    right: -21px;
+}
+
+.arrow-down {
+    bottom: 30px;
+}
+
+.slideUp {
+    animation: slideUpAnim 3s forwards;
+    opacity: 0;
+}
+
+@keyframes slideUpAnim {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 100;
+        transform: translateY(0);
+    }
+}
