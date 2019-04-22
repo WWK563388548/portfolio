@@ -86,7 +86,7 @@ p {
 }
 
 .main-content {
-    height: 100%;
+    height: 90vh;
     display: grid;
     grid-template-columns: 42% auto;
     grid-template-areas:
@@ -97,7 +97,7 @@ p {
 
         h1 {
             color: $primary;
-            font-size: 3.2em;
+            font-size: 2em;
             line-height: 1em;
         }
     }
