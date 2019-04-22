@@ -26,7 +26,7 @@ export default {
 
 <style scoped>
   .img1 {
-    background: url('../assets/home.jpg');
+    background: url('https://media.giphy.com/media/xFkbhJ4KFLW8twElm9/giphy.gif');
     background-size: cover;
     background-position: 50%;
   }

@@ -14,7 +14,8 @@ body {
     align-items: center;
     grid-template-areas:
     "iface";
-    background: #f7f7f7;
+    /* background: #f7f7f7; */
+    background: cornsilk;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -72,7 +73,7 @@ p {
 
                         a {
                             color: #000;
-                            font-size: .7em;
+                            font-size: 0.9em;
                             text-transform: uppercase;
                             padding: 0 15px;
                             font-weight: bold;
@@ -111,15 +112,20 @@ p {
 }
 
 button {
-    background: none;
+    background: $primary;
     padding: 15px 20px;
     font-size: 1.7em;
     outline: 0;
     border: 1px solid $primary;
-    color: $primary;
+    color: #fff;
     text-transform: uppercase;
     font-family: 'Montserrat';
+    border-radius: 50px;
     cursor: pointer;
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
 }
 
 .arrow {
