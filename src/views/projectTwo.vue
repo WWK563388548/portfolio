@@ -6,7 +6,7 @@
             <img src="../assets/arrow-up.svg" class="arrow arrow-up" />
         </router-link>
 
-        <h1>Project Two</h1>
+        <h1>Created Web Pages</h1>
 
         <p class="subtxt">XXXXXX</p>
         <p class="subtxt">XXXXXX</p>

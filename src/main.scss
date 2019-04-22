@@ -72,7 +72,7 @@ p {
                         display: inline;
 
                         a {
-                            color: #000;
+                            color: #fff;
                             font-size: 0.9em;
                             text-transform: uppercase;
                             padding: 0 15px;
@@ -146,7 +146,7 @@ button {
 }
 
 .slideUp {
-    animation: slideUpAnim 3s forwards;
+    animation: slideUpAnim 2s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
     opacity: 0;
 }
 

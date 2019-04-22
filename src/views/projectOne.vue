@@ -1,7 +1,7 @@
 <template>
   <div class="home main-content">
     <div class="left-content slideUp">
-      <h1>Project One</h1>
+      <h1>Projects Of Front-End</h1>
 
       <p class="subtxt">XXXXXX</p>
       <p class="subtxt">XXXXXX</p>
