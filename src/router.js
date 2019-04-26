@@ -3,6 +3,7 @@ import Router from "vue-router";
 import Home from "./views/Home.vue";
 import PortfolioOne from "./views/projectOne.vue";
 import PortfolioTwo from "./views/projectTwo.vue";
+import projectThree from "./views/projectThree.vue";
 
 
 Vue.use(Router);
@@ -32,6 +33,11 @@ export default new Router({
       path: "/portfolio/two",
       name: "PortfolioTwo",
       component: PortfolioTwo
+    },
+    {
+      path: "/portfolio/three",
+      name: "PortfolioThree",
+      component: projectThree
     }
   ]
 });

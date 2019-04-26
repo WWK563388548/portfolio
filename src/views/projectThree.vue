@@ -1,19 +1,16 @@
 <template>
-  <div class="two main-content">
+  <div class="three main-content">
     <div class="left-content slideUp">
 
-        <router-link to='/portfolio/one'>
+        <router-link to='/portfolio/two'>
             <img src="../assets/arrow-up.svg" class="arrow arrow-up" />
         </router-link>
 
-        <h1>Mobile App Projects</h1>
+        <h1>Server-Side Projects</h1>
 
         <p class="subtxt">XXXXXX</p>
         <p class="subtxt">XXXXXX</p>
 
-        <router-link to='/portfolio/three'>
-            <img src="../assets/arrow-down.svg" class="arrow arrow-down" />
-        </router-link>
     </div>
     <div class="right-content img2">
     </div>
@@ -23,7 +20,7 @@
 <script>
 
 export default {
-  name: "PortfolioTwo",
+  name: "PortfolioThree",
   components: {
     
   }
@@ -31,7 +28,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    $page_color: #48b886;
+    $page_color: #5487a8;
 
     h1 {
         color: $page_color !important;
