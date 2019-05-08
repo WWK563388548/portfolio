@@ -26,7 +26,7 @@ export default {
 
 <style scoped>
   .img1 {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent), url('https://media.giphy.com/media/xFkbhJ4KFLW8twElm9/giphy.gif');
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent), url('../assets/giphy.gif');
     background-size: cover;
     background-position: 50%;
   }
