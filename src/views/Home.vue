@@ -8,7 +8,7 @@
     </div>
     <div class="right-content img1">
       <button>
-        <router-link to="/portfolio/one">My Work</router-link>
+        <router-link to="/portfolio/one">Browse Work</router-link>
       </button>
     </div>
   </div>
