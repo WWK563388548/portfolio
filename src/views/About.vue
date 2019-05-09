@@ -3,12 +3,12 @@
     <div class="left-content">
       <h1>About me</h1>
       <p class="subtxt">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-      <button class="about-button">
+      <div class="about-button">
         <router-link to="/portfolio/one">Look at my work</router-link>
-      </button>
-      <button class="about-button-resume">
+      </div>
+      <div class="about-button-resume">
         <router-link to="#">My Resume</router-link>
-      </button>
+      </div>
     </div>
     <div class="right-content about-img">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur blanditiis inventore sit modi nulla praesentium repudiandae obcaecati possimus quasi assumenda alias deserunt dolorem cupiditate expedita asperiores unde, iure amet? Ipsa.</p>

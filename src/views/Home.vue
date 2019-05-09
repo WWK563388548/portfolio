@@ -7,9 +7,9 @@
       <p class="subtxt">XXXXXX</p>
     </div>
     <div class="right-content img1">
-      <button>
+      <div class="default-button">
         <router-link to="/portfolio/one">Browse Work</router-link>
-      </button>
+      </div>
     </div>
   </div>
 </template>
