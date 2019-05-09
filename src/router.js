@@ -39,5 +39,6 @@ export default new Router({
       name: "PortfolioThree",
       component: projectThree
     }
-  ]
+  ],
+  mode: 'history',
 });
